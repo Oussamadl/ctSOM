@@ -23,13 +23,13 @@ the pipeline can currently perform the following
 1. Install nextflow.
 2. creat this conda environment gatk4: conda create -n gatk4 -c conda-forge -c bioconda gatk4.
 3. activate the conda environment you create, then istall the following tools:
-- fgbio v2.1.0  : fulcrumgenomics.github.io/fgbio
-- bwa v0.7.17   :bio-bwa.sourceforge.net
-- fastp v0.23.2 :github.com/OpenGene/fastp
-- samtools v1.17 :htslib.org
-- picard
-- vardict
-- VEP
-- vcf2tsvpy
+  - fgbio v2.1.0  : fulcrumgenomics.github.io/fgbio
+  - bwa v0.7.17   :bio-bwa.sourceforge.net
+  - fastp v0.23.2 :github.com/OpenGene/fastp
+  - samtools v1.17 :htslib.org
+  - picard
+  - vardict
+  - VEP
+  - vcf2tsvpy
 5. Download the reference genome
 6. Download the dataset needed for VEP use (Home_sapiens.....fa.gz , and the cache: homo_sapiens_vep_......tar.gz)
