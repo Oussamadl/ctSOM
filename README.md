@@ -33,3 +33,6 @@ the pipeline can currently perform the following
   - vcf2tsvpy
 5. Download the reference genome
 6. Download the dataset needed for VEP use (Home_sapiens.....fa.gz , and the cache: homo_sapiens_vep_......tar.gz)
+
+7. Download the pipeline and Run it on your Dataset:
+   * Nextflow -log <OUTDIR>/my.log run ctSOM.nf --input /path_to_your_dataset/ *.fastq.gz --outdir <OUTDIR> --ref /path_to_your_refrence_genome/ .fa  -with-report <OUTDIR>/report.html -with-timeline <OUTDIR>/timeline.html -with-dag <OUTDIR>/flowchart.dot 
