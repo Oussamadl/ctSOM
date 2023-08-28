@@ -11,12 +11,12 @@ The strength of this pipeline is attributed to the strategic integration of Uniq
 the pipeline can currently perform the following
 - Extraction of the UMI from insert reads and generate consensus reads from them (fgbio )
 - Adapter and quality trimming (fastp).
-. Map Reads to Reference (bwa mem).
-. Process BAM file (gatk SortSam, gatk MergeBamAlignment)
-. convertion of file format ( gatk SamToFastq, gatk FastqToSam, vcf2tsv)
-. quality control (samtools depth, picard collectHsMetrcis, multiQc)
-. variant calling (vardict)
-. Annotation (VEP)
+- Map Reads to Reference (bwa mem).
+- Process BAM file (gatk SortSam, gatk MergeBamAlignment)
+- convertion of file format ( gatk SamToFastq, gatk FastqToSam, vcf2tsv)
+- quality control (samtools depth, picard collectHsMetrcis, multiQc)
+- variant calling (vardict)
+- Annotation (VEP)
 # add image of pipeline
 
 # Quick Start
