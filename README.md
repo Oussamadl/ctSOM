@@ -35,10 +35,10 @@ the pipeline can currently perform the following
 6. Download the dataset needed for VEP use (Home_sapiens.....fa.gz , and the cache: homo_sapiens_vep_......tar.gz)
 
 7. Download the pipeline and Run it on your Dataset:
-   * Nextflow -log <OUTDIR>/my.log run ctSOM.nf --input /path_to_your_dataset/ *.fastq.gz --outdir <OUTDIR> --ref /path_to_your_refrence_genome/ .fa  -with-report <OUTDIR>/report.html -with-timeline <OUTDIR>/timeline.html -with-dag <OUTDIR>/flowchart.dot
+   * Nextflow -log /output_directory/my.log run ctSOM.nf --input /path_to_your_dataset/ *.fastq.gz --outdir /output_directory/ --ref /path_to_your_refrence_genome/ .fa  -with-report /output_directory/report.html -with-timeline /output_directory/timeline.html -with-dag /output_directory/flowchart.dot
 
 # Pipeline output
-the results of your run are all in the directory you defined <OUTDIR> . the log, html and dot files are optional output to give you insight about your run where:
+the results of your run are all in the directory you defined in --outdir . the log, html and dot files are optional output to give you insight about your run where:
 - my.log : Logs are important for debugging, tracking the execution progress, and identifying any errors that might occur during the execution of the pipeline
 - The HTML report typically includes information about the execution of each process in the workflow, such as input and output files, execution times, and any errors encountered.
 - The timeline provides a visual representation of the execution timeline of processes in the workflow, showing when each process started and finished.
