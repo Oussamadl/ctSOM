@@ -38,7 +38,7 @@ the pipeline can currently perform the following
    * Nextflow -log /output_directory/my.log run ctSOM.nf --input /path_to_your_dataset/ *.fastq.gz --outdir /output_directory/ --ref /path_to_your_refrence_genome/ .fa  -with-report /output_directory/report.html -with-timeline /output_directory/timeline.html -with-dag /output_directory/flowchart.dot
 
 # Pipeline output
-the results of your run are all in the directory you defined in --outdir . the log, html and dot files are optional output to give you insight about your run where:
+The outcomes of your execution are stored within the directory you specified using the --outdir parameter. The log, HTML, and DOT files, which are provided as optional outputs, offer you valuable insights into the progress of your run:
 - my.log : Logs are important for debugging, tracking the execution progress, and identifying any errors that might occur during the execution of the pipeline
 - report.html typically includes information about the execution of each process in the workflow, such as input and output files, execution times, and any errors encountered.
 - timeline.html provides a visual representation of the execution timeline of processes in the workflow, showing when each process started and finished.
