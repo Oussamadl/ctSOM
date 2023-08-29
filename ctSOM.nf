@@ -1,3 +1,5 @@
+// ##### all these input path are example, you should put your own path for each params.
+
 params.ref= '/home/obourbia/Documents/test/hg38.fa' // "/path_to_referenceGenome"
 params.fastq = '/home/obourbia/Documents/test/extracted/fastqFiles/testFQ/*_{R1,R2}_001.fastq.gz' // "/path to fastq file"
 params.outdir= '/home/obourbia/Documents/test/multiple_nextf' // "/output path"
