@@ -37,6 +37,8 @@ the pipeline can currently perform the following
 7. Download the pipeline and Run it on your Dataset:
    * Nextflow -log /output_directory/my.log run ctSOM.nf --input /path_to_your_dataset/ *.fastq.gz --outdir /output_directory/ --ref /path_to_your_refrence_genome/ .fa  -with-report /output_directory/report.html -with-timeline /output_directory/timeline.html -with-dag /output_directory/flowchart.dot
 
+8. the tsv file output for each sample serve as an input for "annotExtraction.py" python script, which will sort out a file containing 
+
 # Pipeline output
 The outcomes of your execution are stored within the directory you specified using the --outdir parameter. The log, HTML, and DOT files, which are provided as optional outputs, offer you valuable insights into the progress of your run:
 - my.log : Logs are important for debugging, tracking the execution progress, and identifying any errors that might occur during the execution of the pipeline
