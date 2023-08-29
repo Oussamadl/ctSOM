@@ -37,7 +37,7 @@ the pipeline can currently perform the following
 7. Download the pipeline and Run it on your Dataset:
    * Nextflow -log /output_directory/my.log run ctSOM.nf --input /path_to_your_dataset/ *.fastq.gz --outdir /output_directory/ --ref /path_to_your_refrence_genome/ .fa  -with-report /output_directory/report.html -with-timeline /output_directory/timeline.html -with-dag /output_directory/flowchart.dot
 
-8. the tsv file output for each sample serve as an input for "annotExtraction.py" python script, which will sort out a file containing 
+8. the tsv file output for each sample serve as an input for "annotExtraction.py" python script, which will sort out an xls file containing: gene name, HGVSc (e.g: c.2450T>G), HGVSp (e.g: p.Leu817Arg) and variant allele frequency (VAF).
 
 # Pipeline output
 The outcomes of your execution are stored within the directory you specified using the --outdir parameter. The log, HTML, and DOT files, which are provided as optional outputs, offer you valuable insights into the progress of your run:
