@@ -31,7 +31,7 @@ the pipeline can currently perform the following
   - vardict
   - VEP
   - vcf2tsvpy
-5. Download the reference genome, and extract all file related to it through indexing: hg38.fa.amb, hg38.fa.ann, hg38.fa.bwt, hg38.fa.fai, hg38.fa.pac, hg38.fa.sa
+5. Download the reference genome, and extract all files related to it through indexing: hg38.fa.amb, hg38.fa.ann, hg38.fa.bwt, hg38.fa.fai, hg38.fa.pac, hg38.fa.sa
 6. Download the dataset needed for VEP use (Home_sapiens.....fa.gz , and the cache: homo_sapiens_vep_......tar.gz)
 
 7. Download the pipeline and Run it on your Dataset:
