@@ -1,14 +1,4 @@
-// ##### all these input path are example, you should put your own path for each params.
-
-params.ref= '/home/obourbia/Documents/test/hg38.fa' // "/path_to_referenceGenome"
-params.fastq = '/home/obourbia/Documents/test/extracted/fastqFiles/testFQ/*_{R1,R2}_001.fastq.gz' // "/path to fastq file"
-params.outdir= '/home/obourbia/Documents/test/multiple_nextf' // "/output path"
-params.bed= '/home/obourbia/Documents/test/varCall_mutec2/hotspot_primary_targets.bed' // "/path_to_bedFile"
-params.bedInterval= '/home/obourbia/Documents/test/varCall_mutec2/output_interval_listRoch.txt' // path to interval list extracted from bed file
-params.teststrandbias = '/home/obourbia/anaconda3/envs/gatk/bin/teststrandbias.R' // path to teststrandbias.R used by vardict
-params.var2vcf = '/home/obourbia/anaconda3/envs/gatk/bin/var2vcf_valid.pl' // path to var2vcf_valid.pl used by vardict
-params.cach="/home/obourbia/.vep" // "/path_to_cacheVEP"
-params.fasta= "/home/obourbia/.vep/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz" // "/path_to_fastaVEP"
+// ##### go to nextflow.config file and define all path
 
 //Convert the demultiplexed, raw sequencing FASTQ files to BAM
 //
