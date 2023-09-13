@@ -7,6 +7,11 @@ The pipeline is built using Nextflow, a workflow tool to run tasks across multip
 
 The strength of this pipeline is attributed to the strategic integration of Unique Molecular Identifiers (UMIs). These molecular barcodes effectively mitigate the challenges posed by PCR duplicates and sequencing errors, contributing to the pipeline's enhanced accuracy and sensitivity in identifying genetic variants
 
+<picture>
+ <img alt="the workflow" src="https://github.com/Oussamadl/ctSOM/blob/main/pipeline.png">
+</picture>
+
+
 # Pipeline summary
 the pipeline can currently perform the following
 - Extraction of the UMI from insert reads and generate consensus reads from them (fgbio )
