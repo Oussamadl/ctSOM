@@ -38,7 +38,7 @@ the pipeline can currently perform the following
   - vcf2tsvpy
 5. Download the reference genome, and extract all files related to it through indexing: hg38.fa.amb, hg38.fa.ann, hg38.fa.bwt, hg38.fa.fai, hg38.fa.pac, hg38.fa.sa
 6. Download the dataset needed for VEP use (Home_sapiens.....fa.gz , and the cache: homo_sapiens_vep_......tar.gz)
-7. On nextflow.config file, define all path of your pipeline input and output 
+7. On nextflow.config file, define all input and output paths of your pipeline 
 8. Download the pipeline and Run it on your Dataset:
    * Nextflow -log /output_directory/my.log run ctSOM.nf --input /path_to_your_dataset/ *.fastq.gz --outdir /output_directory/ --ref /path_to_your_refrence_genome/ .fa  -with-report /output_directory/report.html -with-timeline /output_directory/timeline.html -with-dag /output_directory/flowchart.dot
 
