@@ -40,7 +40,7 @@ the pipeline can currently perform the following
 6. Download the dataset needed for VEP use (Home_sapiens.....fa.gz , and the cache: homo_sapiens_vep_......tar.gz)
 7. On nextflow.config file, define all input and output paths of your pipeline 
 8. Download the pipeline and Run it on your Dataset:
-   * Nextflow -log /output_directory/my.log run ctSOM.nf --input /path_to_your_dataset/ *.fastq.gz --outdir /output_directory/ --ref /path_to_your_refrence_genome/ .fa  -with-report /output_directory/report.html -with-timeline /output_directory/timeline.html -with-dag /output_directory/flowchart.dot
+   * Nextflow -log /output_directory/my.log run ctSOM.nf -with-report /output_directory/report.html -with-timeline /output_directory/timeline.html -with-dag /output_directory/flowchart.dot
 
 9. the tsv file output for each sample serve as an input for "annotExtraction.py" python script, which will sort out an xls file containing: gene name, HGVSc (e.g: c.2450T>G), HGVSp (e.g: p.Leu817Arg) and variant allele frequency (VAF).
 
